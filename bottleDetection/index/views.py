@@ -2,7 +2,7 @@ from django.http import HttpResponse
 
 
 def index(request):
-    return HttpResponse("<div>")
+    return HttpResponse("<h1>Computer Vision: Freie Aufgabe</h1><br/><h2>Bottle Detection mit Instagram Bildern</h2>")
 
 
 def detail(request, question_id):
