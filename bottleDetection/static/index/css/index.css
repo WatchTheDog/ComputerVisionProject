@@ -1,0 +1,76 @@
+@font-face {
+  font-family: Rubik;
+  src: url("../fonts/Rubik-Regular.ttf"), url("../fonts/Rubik-Bold.ttf");
+}
+
+body{
+    font-family: Rubik;
+    background-image: linear-gradient(to right bottom, #306a9c, #5162a4, #7756a0, #9a448f, #b42e72, #b32765, #b22059, #af1b4c, #9e1e53, #8c2256, #7a2658, #672856);
+}
+#heading {
+    height: 100px;
+    text-align: center;
+    margin:0;
+    color:#FFFFFC;
+}
+h1{
+    padding-top:20px;
+    font-family: Rubik;
+    font-weight: bold;
+}
+#heading p{
+    font-size:10px;
+}
+.container{
+    margin-top: 60px;
+    background-color: rgba(251,254,259,0.7);
+}
+
+.description{
+    padding-left: 10px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+ }
+
+.btn-primary{
+    margin-top: 20px;
+}
+
+#logo{
+    height: 100px;
+    width:100px;
+    border-radius: 50px;
+    position: absolute;
+    right: 15px;
+    top:15px;
+}
+
+#list{
+    padding-left: 15px;
+}
+
+#inputfield{
+    text-align: center;
+}
+
+#inputfield .form-control{
+    width:250px;
+    margin: auto;
+}
+
+footer{
+    margin-top: 50px;
+    background-color: #000000;
+    width: 100%;
+    text-align: center;
+}
+
+footer a{
+    color:#fffffc;
+    margin-right: 10px;
+    text-decoration: none !important;
+}
+footer p{
+    font-size:10px;
+    color:#fffffc;
+}
