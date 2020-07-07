@@ -23,6 +23,6 @@ class Choice(models.Model):
     def __str__(self):
         return self.question_text
 
-    
+
 class SearchImage(models.Model):
     imageToSearch = models.ImageField(upload_to='images/')
