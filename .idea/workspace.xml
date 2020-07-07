@@ -20,6 +20,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c6ec9715-85b9-427b-9323-13a285a550fd" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bottleDetection/bottleDetection/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/bottleDetection/bottleDetection/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bottleDetection/index/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/bottleDetection/index/models.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bottleDetection/index/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/bottleDetection/index/urls.py" afterDir="false" />
@@ -55,7 +56,7 @@
       <option name="presentableId" value="Default" />
       <updated>1593598713273</updated>
       <workItem from="1593598719840" duration="161000" />
-      <workItem from="1594023107989" duration="3257000" />
+      <workItem from="1594023107989" duration="3385000" />
     </task>
     <servers />
   </component>
