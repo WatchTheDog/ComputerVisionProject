@@ -1,7 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="c6ec9715-85b9-427b-9323-13a285a550fd" name="Default Changelist" comment="" />
+    <list default="true" id="c6ec9715-85b9-427b-9323-13a285a550fd" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/bottleDetection/index/forms.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bottleDetection/bottleDetection/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/bottleDetection/bottleDetection/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bottleDetection/bottleDetection/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/bottleDetection/bottleDetection/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bottleDetection/index/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/bottleDetection/index/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bottleDetection/index/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/bottleDetection/index/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bottleDetection/templates/index/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/bottleDetection/templates/index/index.html" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -20,6 +46,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -32,11 +59,23 @@
       <option name="presentableId" value="Default" />
       <updated>1593598713273</updated>
       <workItem from="1593598719840" duration="161000" />
+      <workItem from="1594023107989" duration="2453000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="2" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="WindowStateProjectService">
     <state x="421" y="87" key="FileChooserDialogImpl" timestamp="1593598847807">

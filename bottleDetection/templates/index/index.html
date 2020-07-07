@@ -19,7 +19,7 @@
     <div class="col-12">
         <h1>Instagram Flaschendetektor</h1>
         <p>by BLANACHCOR</p>
-        <img id="logo" src="{% static 'index/img/logo2.png' %}" class="img img-fluid"/>
+        <img id="logo" src="{% static 'index/../../static/index/img/logo2.png' %}" class="img img-fluid"/>
     </div>
 </div>
 <div class="container">
@@ -27,9 +27,9 @@
     <div class="row description">
         <div id="inputfield" class="col-lg-6 col-12">
             <div><h5>Gib hier deinen Instagram Namen ein!*</h5>
-                <form action="/your-name/" method="post">
-                    <label for="instagram_tag">Instagram Name: </label>
-                    <input id="instagram_tag" name="instagram_tag" type="text" value="{{ current_tag }}" class="form-control form-rounded" placeholder="pfungstadter_brauerei">
+                <form method="post" enctype="multipart/form-data">
+                    {% csrf_token %}
+                    {{ form.as_p }}
                     <input type="submit" class="btn btn-primary" value="Suche starten">
                 </form>
             </div>
