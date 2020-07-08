@@ -1,6 +1,7 @@
 from django.core.files.storage import FileSystemStorage
 from django.http import HttpResponse
 from django.shortcuts import render
+from .ml import ml
 
 
 def index(request):
@@ -11,9 +12,9 @@ def index(request):
             if fs.exists('image.jpg'):
                 fs.delete('image.jpg')
             filename = fs.save('image.jpg', myfile)
-            uploaded_file_url = fs.url(filename)
+            isBeerInImage = ml()
 
             return render(request, 'index/index.html', {
-                'uploaded_file_url': uploaded_file_url
+                'result': isBeerInImage
             })
     return render(request, 'index/index.html')
