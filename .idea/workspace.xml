@@ -19,12 +19,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c6ec9715-85b9-427b-9323-13a285a550fd" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bottleDetection/bottleDetection/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/bottleDetection/bottleDetection/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bottleDetection/index/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/bottleDetection/index/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bottleDetection/index/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/bottleDetection/index/urls.py" afterDir="false" />
-    </list>
+    <list default="true" id="c6ec9715-85b9-427b-9323-13a285a550fd" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -43,7 +38,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../freie-aufgabe" />
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -56,7 +51,7 @@
       <option name="presentableId" value="Default" />
       <updated>1593598713273</updated>
       <workItem from="1593598719840" duration="161000" />
-      <workItem from="1594023107989" duration="3385000" />
+      <workItem from="1594023107989" duration="3586000" />
     </task>
     <servers />
   </component>
@@ -75,9 +70,9 @@
     </option>
   </component>
   <component name="WindowStateProjectService">
-    <state x="421" y="87" key="FileChooserDialogImpl" timestamp="1593598847807">
+    <state x="421" y="87" key="FileChooserDialogImpl" timestamp="1594148427594">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
-    <state x="421" y="87" key="FileChooserDialogImpl/0.0.1280.689@0.0.1280.689" timestamp="1593598847807" />
+    <state x="421" y="87" key="FileChooserDialogImpl/0.0.1280.689@0.0.1280.689" timestamp="1594148427594" />
   </component>
 </project>

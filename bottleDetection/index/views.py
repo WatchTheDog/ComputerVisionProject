@@ -1,20 +1,19 @@
+from django.core.files.storage import FileSystemStorage
 from django.http import HttpResponse
 from django.shortcuts import render
-from .forms import *
-
-
-# Create your views here.
-def search_image_view(request):
-    if request.method == 'POST':
-        form = SearchImageForm(request.POST, request.FILES)
-
-        if form.is_valid():
-            form.save()
-            return redirect('success')
-    else:
-        form = SearchImageForm()
-    return render(request, 'index.html', {'form': form})
 
 
 def index(request):
-    return render(request, 'index/index.html', {})
+    if request.method == 'POST' and request.FILES:
+        myfile = request.FILES['searchImage']
+        if myfile:
+            fs = FileSystemStorage()
+            if fs.exists('image.jpg'):
+                fs.delete('image.jpg')
+            filename = fs.save('image.jpg', myfile)
+            uploaded_file_url = fs.url(filename)
+
+            return render(request, 'index/index.html', {
+                'uploaded_file_url': uploaded_file_url
+            })
+    return render(request, 'index/index.html')

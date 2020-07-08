@@ -1,9 +1,8 @@
-# forms.py
 from django import forms
-from .models import *
+from .models import Post
 
+class PostForm(forms.ModelForm):
 
-class SearchImageForm(forms.ModelForm):
     class Meta:
-        model = SearchImage
-        fields = ['imageToSearch']
+        model = Post
+        fields = ['cover']
