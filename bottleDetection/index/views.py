@@ -15,6 +15,7 @@ def index(request):
             isBeerInImage = ml()
 
             return render(request, 'index/index.html', {
+                'return': True,
                 'result': isBeerInImage
             })
     return render(request, 'index/index.html')

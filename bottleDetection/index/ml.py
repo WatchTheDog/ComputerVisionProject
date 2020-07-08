@@ -1,14 +1,17 @@
+import os
+
 import numpy as np
 from sympy.printing.tests.test_tensorflow import tf
 from tensorflow import keras
 from keras.preprocessing import image
 from keras.applications.mobilenet import preprocess_input
+BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
 
 def ml():
-    test_image = image.load_img('C:\\Users\\Timo\\Source\\Repos\\freie-aufgabe\\bottleDetection\\media\\image.jpg',
+    test_image = image.load_img(os.path.join(BASE_DIR, 'media\\image.jpg'),
                                 target_size=(224, 224))
-    model = keras.models.load_model('C:\\Users\\Timo\\Source\\Repos\\freie-aufgabe\\bottleDetection\\model\\saved_model.pb')
+    model = keras.models.load_model(os.path.join(BASE_DIR, 'model\\saved_model.pb'))
     if test_image is not None:
         test_image = image.img_to_array(test_image)
         test_image = np.expand_dims(test_image, axis=0)
